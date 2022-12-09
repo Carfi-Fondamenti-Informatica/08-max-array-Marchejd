@@ -1,23 +1,14 @@
 #include <iostream>
 #include "lib.h"
-
 using namespace std;
-
-int main(){
-      
-      int x=0;
-      float s=0;
-      
-    cin>>x;
-    float ar[x];
-      
-    for (int i=0; i<x; i++)
-    {
-        cin>>ar[i];
-        s=max(ar[i]);
-    }
-      
-    cout<<s;
-
-  return 0;
+int main () {
+   int n=0;
+   cin>>n;
+   float ar[n];
+   for (int i=0; i<n; i++)
+   {
+       cin>>ar[i];
+   }
+ cout<< max (ar[n], n)<<endl;
+    return 0;
 }
