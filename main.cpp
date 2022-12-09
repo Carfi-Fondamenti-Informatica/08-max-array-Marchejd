@@ -9,6 +9,6 @@ int main () {
    {
        cin>>ar[i];
    }
- cout<< max (ar[n], n)<<endl;
+ cout<< max (ar , n)<<endl;
     return 0;
 }
