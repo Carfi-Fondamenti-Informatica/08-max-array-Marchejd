@@ -12,6 +12,7 @@ float max (float pt[], int n)
         else
         {
             pt[0]=pt[i];
+         i++;
         }
     }
     return pt[0];
