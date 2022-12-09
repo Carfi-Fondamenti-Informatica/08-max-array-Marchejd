@@ -2,4 +2,4 @@
 
 
 
-float max(float n);
+float max (float pt[], int n);
