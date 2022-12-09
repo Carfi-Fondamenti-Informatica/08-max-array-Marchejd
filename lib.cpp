@@ -1,3 +1,5 @@
+ 
+#include "lib.h"
 
 float max (float pt[], int n)
 { int i=0;
