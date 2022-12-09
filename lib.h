@@ -1,1 +1,2 @@
 
+int max(int n);
