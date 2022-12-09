@@ -1,7 +1,7 @@
 
 #include "lib.h"
-int max ( int  n)
-{ int m=0;
+float max ( float  n)
+{ float m=0;
     if (m<n)
     {
         m=n;
