@@ -1,9 +1,16 @@
 
-#include "lib.h"
-float max ( float  n)
-{ float m=0;
-    if (m<n)
+float max (float pt[], int n)
+{ int i=0;
+    while (i<n)
     {
-        m=n;
+        if (pt[0]>pt[i])
+        {
+            i++;
+        }
+        else
+        {
+            pt[0]=pt[i];
+        }
     }
-    return m;
+    return pt[0];
+}
