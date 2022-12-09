@@ -1,2 +1,2 @@
 
-int max(int n);
+float max(float n);
